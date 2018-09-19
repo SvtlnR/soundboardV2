@@ -1,0 +1,241 @@
+html{
+	overflow-x: hidden;
+}
+body{
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+	height: 100vh;
+}
+header{
+	background-color: #0A122A;
+	width: 100%;
+	height: 15%;
+}
+main{
+	
+	width: 100%;
+}
+footer{
+	font-family: "Verdana";
+	color: #E0E6F8;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	width: 95%;
+=======
+	
+	width: 100%;
+>>>>>>> 7df1e8fe3498208d34c0961ff8d2af8c4072a779
+=======
+	width: 95%;
+>>>>>>> 08fee37ed80ab12765af2088cc448f833bda29d5
+	bottom: 0;
+	position: absolute;
+	height: 5%;
+	padding-left: 5%;
+}
+.hdr{
+	text-align: center;
+	color: 	#E0E6F8;
+	font-size: 400%;
+	font-family: "Verdana";
+	display: none;
+}
+.guitar, .piano, .drums, .beats, .brass{
+	width: 13%;
+	margin: 3%;
+	float: left;
+}
+.ttl{
+	font-family: "Verdana";
+	font-size: 90%;
+	color: #E0E6F8;
+	padding: 3%;
+	margin: 3%;
+}
+.btn{
+	cursor: pointer;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	font-family: "Verdana";
+	color: #E0E6F8;
+=======
+>>>>>>> 7df1e8fe3498208d34c0961ff8d2af8c4072a779
+=======
+	font-family: "Verdana";
+	color: #E0E6F8;
+>>>>>>> 08fee37ed80ab12765af2088cc448f833bda29d5
+	padding: 3%;
+	margin: 3%;
+	background-color: #4682B4;
+	height: 5vh;
+	width: 70%;
+	border-radius: 10px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 08fee37ed80ab12765af2088cc448f833bda29d5
+}
+@media (max-width: 480px)
+  and (orientation: portrait)
+  {
+  	header{
+  		height: 12%;
+  	}
+  	footer{
+  		height: 4%;
+  		font-size: 90%;
+  	}
+ 	.hdr{
+ 		padding: 5%;
+ 		text-align: center;
+ 		height: 70%;
+		font-size: 200%;
+	}
+	.btn{
+		color: #4682B4;
+		padding: 3%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-top: 1%;
+		margin-bottom: 1%;
+		height: 4vh;
+		width: 11%;
+		display: inline-block;
+				
+ 	}
+ 	.guitar, .piano, .drums, .beats, .brass{
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 3%;
+		margin-bottom: 2%;
+		float: none;
+	}	
+	.ttl{
+		font-size: 120%;
+		float: none;
+		margin: 0%;
+	}
+}
+@media (max-width: 812px)
+  and (orientation: landscape){
+  	header{
+  		height: 15%;
+  	}
+  	footer{
+  		height: 4%;
+  		font-size: 70%;
+
+  	}
+ 	.hdr{
+ 		padding-top: 0%;
+ 		padding-bottom: 0%;
+ 		padding-right: 5%;
+ 		padding-left: 5%;
+ 		text-align: center;
+ 		height: 70%;
+		font-size: 200%;
+	}
+	.guitar, .piano, .drums, .beats, .brass{
+		width: 13%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 3%;
+		margin-top: 0%;
+		float: left;
+	}
+	.btn{
+		color: #4682B4;
+		padding: 5%;
+		margin: 10%;
+		height: 12vh;
+		width: 80%;		
+ 	}
+}
+@media (min-width: 768px)
+  	and (max-width: 959px)
+  	and (orientation:portrait){
+ 	 header{
+  		height: 12%;
+  	}
+ 	.hdr{
+ 		padding-bottom: 0%;
+ 		padding-top: 0%;
+		padding-right: 5%;
+ 		padding-left: 5%;
+ 		text-align: center;
+ 		height: 70%;
+		font-size: 450%;
+	}
+	.btn{
+		color: #4682B4;
+		padding: 3%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-top: 1%;
+		margin-bottom: 1%;
+		height: 4vh;
+		width: 11%;
+		display: inline-block;
+				
+ 	}
+ 	.guitar, .piano, .drums, .beats, .brass{
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		float: none;
+	}	
+	.ttl{
+		font-size: 200%;
+		float: none;
+		margin: 0%;
+	}
+ }
+ @media (min-width: 960px)
+  	and (max-width: 1024px)
+  	and (orientation:landscape){
+  	header{
+  		height: 15%;
+  	}
+  	footer{
+  		height: 4%;
+  		font-size: 100%;
+
+  	}
+ 	.hdr{
+ 		padding-top: 0%;
+ 		padding-bottom: 0%;
+ 		padding-right: 5%;
+ 		padding-left: 5%;
+ 		text-align: center;
+ 		height: 100%;
+		font-size: 500%;
+	}
+	.guitar, .piano, .drums, .beats, .brass{
+		width: 13%;
+		margin: 3%;
+		float: left;
+	}
+	.btn{
+		color: #4682B4;
+		padding: 5%;
+		margin: 10%;
+		height: 12vh;
+		width: 80%;		
+ 	}	
+ 	.ttl{
+		font-size: 200%;
+		float: none;
+		margin: 0%;
+	}
+<<<<<<< HEAD
+=======
+>>>>>>> 7df1e8fe3498208d34c0961ff8d2af8c4072a779
+=======
+>>>>>>> 08fee37ed80ab12765af2088cc448f833bda29d5
+}
